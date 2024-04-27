@@ -17,22 +17,22 @@ Those datasets are obtained from original SimCSE work.
 
 For SentEval(Evaluation data)
 ```
-cd Adversarial-SimCSE/SentEval/data/downstream
-bash Adversarial-SimCSE/SentEval/data/downstream/download_dataset.sh
+cd CS577/SentEval/data/downstream
+bash CS577/SentEval/data/downstream/download_dataset.sh
 ```
 
 For training data (Unsupervised)
 
 ```
-cd Adversarial-SimCSE/SentEval/data
-bash /Adversarial-SimCSE/data/download_wiki.sh
+cd CS577/SentEval/data
+bash CS577/data/download_wiki.sh
 ```
 
 
 # Training Unsupervised setting
 
 ```
-bash Adversarial-SimCSE/run_unsup_example.sh
+bash CS577/run_unsup_example.sh
 ```
 
 At the end of the training, it automatically evaluate the training model with STS dataset
@@ -54,7 +54,7 @@ My implementation is based on SimCSE work https://github.com/princeton-nlp/SimCS
 
 Most of modification of the code is in the 
 ```
-cd Adversarial-SimCSE/simcse/models.py
+cd CS577/simcse/models.py
 ```
 In this file, I implemented Adversarial loss to modify the original loss objective
 ```
