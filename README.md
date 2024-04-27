@@ -7,7 +7,7 @@ Need to make conda environment
 ```
 conda create -n myenv python=3.7
 cd Adversarial-SimCSE
-pip install -r Adversarial-SimCSE/requirements.txt
+pip install -r CS577/requirements.txt
 pip install wandb optuna # For logging and hyperparameter tuning purpose
 ```
 
